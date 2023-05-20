@@ -32,7 +32,7 @@ fun main() {
         "https://releases.hashicorp.com/terraform/1.3.3/terraform_1.3.3_windows_386.zip",
         true
     )
-    // Generate Terraform-files to out-directory (see method in Init.kt)
+    // Generate Terraform-files in out-directory (see method in Init.kt)
     generateTfFiles()
     // Setup workspace in out-directory
     Executor.init()
